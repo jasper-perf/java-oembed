@@ -23,7 +23,7 @@
     </licenses>
 		
     <properties>		
-	<versions.jackson>2.5.4</versions.jackson>		
+	<versions.jackson>2.8.11.1</versions.jackson>		
     </properties>
     <build>
 	<plugins>
@@ -75,7 +75,7 @@
 			<id>enforce</id>
 			<configuration>
 			    <rules>
-				<DependencyConvergence />
+				<DependencyConvergence/>
 			    </rules>
 			</configuration>
 			<goals>
@@ -169,7 +169,7 @@
 					</goals>
 				    </pluginExecutionFilter>
 				    <action>
-					<ignore />
+					<ignore/>
 				    </action>
 				</pluginExecution>
 				<pluginExecution>
@@ -184,7 +184,7 @@
 					</goals>
 				    </pluginExecutionFilter>
 				    <action>
-					<ignore />
+					<ignore/>
 				    </action>
 				</pluginExecution>
 			    </pluginExecutions>
@@ -298,7 +298,7 @@
 	<dependency>
 	    <groupId>commons-beanutils</groupId>
 	    <artifactId>commons-beanutils</artifactId>
-	    <version>1.9.2</version>
+	    <version>1.9.3</version>
 	</dependency>
 	<dependency>
 	    <groupId>junit</groupId>
